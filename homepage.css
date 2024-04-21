@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #BBD0FF;
+    padding-bottom: 50px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.bigdonut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+@media (max-width: 1298px) {
+    .bigdonut {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bigdonutImage {
+        width: 400px;
+    }
+
+    .newdonuts {
+        justify-content: center;
+        padding-right: 200px;
+    }
+}
+
+.bigdonut p {
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 20px;
+    color: purple;
+    padding-bottom: 30px;
+}
+
+.bigdonut h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.bigdonut a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.fish {
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.newdonuts {
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+    margin-bottom: 20px;
+}
+
+.choose {
+    background-color: white;
+}
+
+@media (max-width: 1158px) {
+    .choose1 {
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+    .why{
+        display: flex;
+        justify-content: center;
+        padding-right: 200px;
+    }
+}
+
+.choose h2 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+.choose1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.choose2 {
+    display: flex;
+}
+
+.choose2 p {
+    font-size: 13px;
+}
+
+.header h2 {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.linkss a {
+    text-decoration: none;
+    color: purple;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.linkss {
+    padding-left: 185px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+@media (max-width: 990px){
+    .linkss{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.linkss a:hover {
+    background-color: purple;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+.allDonuts {
+    display: flex;
+    gap: 20px;
+
+}
+@media (max-width: 1262px){
+    .allDonuts{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.bigDiv {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 260px;
+    height: 420px;
+}
+
+.whiteDiv {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.whiteDiv h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 15px;
+}
+@media (max-width: 1366px){
+    .images{
+        flex-wrap: wrap;
+       
+        gap: 20px;
+    }
+    .img2{
+       flex-wrap: wrap;
+      padding-bottom: 30px;
+    }
+}
+@media (max-width: 1362px){
+    .textAndImage{
+        justify-content: center;
+        gap: 30px;
+    }
+
+}
+.img3 {
+    margin-left: 10px;
+    margin-right: 18px;
+}
+
+.img2 {
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.textAndImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text {
+    width: 450px;
+
+}
+
+.blue {
+    background-color: #BBD0FF;
+    height: 80px;
+}
+
+.white2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.find {
+    padding-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+}
+@media (max-width: 1256px){
+    .find{
+        display: flex;
+        justify-content: center;
+        padding-right: 200px;
+    }
+    .white2{
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.footer {
+    background-color: #BBD0FF;
+    height: 360px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+@media (max-width: 1252px){
+    .footerLinks{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+        padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    }
+    .foot{
+        display: none;
+    }
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 5px;
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footerLinks a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 14px;
+}
+
+.social {
+    margin-left: 375px;
+    margin-top: 15px;
+}
